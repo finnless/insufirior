@@ -1,0 +1,22 @@
+{
+  "name": "insufirior",
+  "version": "1.0.0",
+  "description": "World War II game that is a mix of Risk, Diplomacy and HOI 4.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finnless/insufirior.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finnless/insufirior/issues"
+  },
+  "homepage": "https://github.com/finnless/insufirior#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
