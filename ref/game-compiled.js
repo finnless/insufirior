@@ -2125,6 +2125,7 @@ tilegames.GameState.prototype.unitTypeAt = function(a) {
     return a && (a = this.unitsByTerritory_[a]) ? a.type : null
 }
 ;
+//This is identical to the begining of raphael.js
 (function(a) {
     var e = /[\.\/]/, l = function() {}, n = function(a, e) {
         return a - e
@@ -6075,6 +6076,7 @@ window.Raphael.svg && function(a) {
             }
         }(I))
 }(window.Raphael);
+//^ End of raphael.js
 window.Raphael.vml && function(a) {
     var e = String
       , l = parseFloat
@@ -6879,6 +6881,7 @@ window.Raphael.vml && function(a) {
             }
         }(C))
 }(window.Raphael);
+//^ End of raphael.js again
 var MapRenderer = function(a, e) {
     function l(a, d) {
         Q[a] = {};
